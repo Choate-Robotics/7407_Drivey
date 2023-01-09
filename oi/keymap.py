@@ -20,5 +20,6 @@ class Keymap:
         LEFT_AXIS_X = JoystickAxis(Controllers.DRIVER, controllerDRIVER.L_JOY[0])
         RIGHT_AXIS_Y = JoystickAxis(Controllers.DRIVER, controllerDRIVER.R_JOY[1])
         RIGHT_AXIS_X = JoystickAxis(Controllers.DRIVER, controllerDRIVER.R_JOY[0])
-
         DRIVE_STYLE = DefaultButton(Controllers.DRIVER, controllerDRIVER.SELECT)
+        CENTRIC = DefaultButton(controllerDRIVER, controllerDRIVER.START)
+        RESET_GYRO = DefaultButton(controllerDRIVER, controllerDRIVER.A)

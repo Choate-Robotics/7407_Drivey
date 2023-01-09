@@ -12,4 +12,4 @@ class Pneumatics:
 
 
 class Sensors:
-    pass
+    Pigeon = sensors.Pigeon2

@@ -14,8 +14,6 @@ from robot_systems import Robot
 
 from command import drivetrainCustom
 
-from robotpy_toolkit_7407.motors import TalonFX
-
 class Drivey(wpilib.TimedRobot):
     def __init__(self):
         super().__init__(constants.period)
