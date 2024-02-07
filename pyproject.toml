@@ -22,8 +22,9 @@ robotpy_extras = [
     # "playingwithfusion"
     "rev",
     # "romi"
-    "sim"
+    "sim",
     # "xrp"
+    "ctre"
 ]
 
 # Other pip packages to install

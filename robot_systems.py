@@ -2,14 +2,14 @@ import subsystem
 import sensors
 import wpilib
 
+from subsystem import Drivetrain
+
 
 class Robot:
-    pass
-
+    drivetrain = Drivetrain()
 
 class Pneumatics:
     pass
-
 
 class Sensors:
     pass

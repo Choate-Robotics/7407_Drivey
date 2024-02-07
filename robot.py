@@ -1,13 +1,11 @@
 import commands2
 from toolkit.subsystem import Subsystem
-import phoenix5 as ctre
 import ntcore
 import wpilib
 import command
 import config
 import constants
 from robot_systems import Robot, Pneumatics, Sensors, LEDs, PowerDistribution, Field
-import sensors
 import subsystem
 import utils
 from oi.OI import OI
@@ -87,6 +85,10 @@ class _Robot(wpilib.TimedRobot):
 
     def teleopInit(self):
         self.log.info("Teleop initialized")
+
+        commands2.CommandScheduler.getInstance().schedule(
+            command.DriveTrain(Robot.drivetrain)
+        )
 
     def teleopPeriodic(self):
         pass

@@ -17,3 +17,12 @@ LOG_FILE_LEVEL: int = 1
 # 4 = SETUP
 # anything else will log nothing
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+CAN_IDS_DRIVETRAIN: dict = {
+    'right_1': 1,
+    'right_2': 2,
+    'right_3': 3,
+    'left_1': 4,
+    'left_2': 5,
+    'left_3': 6
+}
